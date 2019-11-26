@@ -1,0 +1,43 @@
+h1 {
+  color: white;
+  -webkit-text-stroke: 3px black;
+  font-size: 80px;
+}
+
+h2 {
+  position: fixed;
+  color: white;
+  -webkit-text-stroke: 3px grey;
+  text-shadow: 5px 5px grey;
+  font-size: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  height: 1080px;
+  /* width: 1920px; */
+}
+
+.ult_video {
+  max-width: 100%;
+  min-height: 1070px;
+}
+
+.video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 75%;
+}
+
+body {
+  cursor: none;
+  overflow: hidden;
+}

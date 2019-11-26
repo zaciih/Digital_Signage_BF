@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Css/style.css">
+    <script src="Js/main.js" charset="utf-8"></script>
+    <title>Digital Signage</title>
+  </head>
+  <body>
+    <div id="Carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="Images/Town_Hall.jpg" alt="First slide" class="title">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Padiham Business Community</h2>
+          </div>
+        </div>
+        <div id="pre_vid" class="carousel-item">
+          <img class="d-block w-100" src="Images/Ultimate_1.jpg" alt="Second slide">
+        </div>
+        <div id="video" class="carousel-item" data-interval="20000">
+          <!-- local video file -->
+          <video id="vid_1" class="ult_video" class="video-fluid" autoplay muted>
+            <source src="Videos/Ultimate_Secret.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <!-- web (facebook) video -->
+          <!-- <iframe class="video" src="" width="534" height="952" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe> -->
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Images/Ultimate_4.jpg" alt="Fourth slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Images/Town_Hall.jpg" alt="First slide" class="title">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Padiham Business Community</h2>
+          </div>
+        </div>
+        <div id="pre_vid2" class="carousel-item">
+          <img class="d-block w-100" src="Images/Lawrence_1.jpg" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>The Lawrence</h1>
+          </div>
+        </div>
+        <div id="video" class="carousel-item" data-interval="20000">
+          <!-- local video file -->
+          <video id="vid_2" class="video" class="video-fluid" autoplay muted>
+            <source src="Videos/lawrence.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <!-- web (facebook) video -->
+          <!-- <iframe class="video" src="" width="534" height="952" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe> -->
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Images/Lawrence_2.jpg" alt="Fourth slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>The Lawrence</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Images/Town_Hall.jpg" alt="First slide" class="title">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Padiham Business Community</h2>
+          </div>
+        </div>
+        <div id="pre_vid3" class="carousel-item">
+          <img class="d-block w-100" src="Images/cellar_1.jpg" alt="Second slide">
+        </div>
+        <div id="video" class="carousel-item" data-interval="20000">
+          <!-- web (youtube) video -->
+          <iframe id="vid_3" class="iframe" src="" width="2240" height="1260" frameborder="0" allow="autoplay; encrypted-media; gyroscope" allowfullscreen></iframe>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Images/cellar_2.jpg" alt="Fourth slide">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
